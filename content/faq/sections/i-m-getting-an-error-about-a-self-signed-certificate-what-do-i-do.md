@@ -17,3 +17,4 @@ apm config set strict-ssl false
 ```
 
 {{/danger}}
+For Kaspersky anti-virus users, where "scan encrypted connections" is enabled, a covenient fix is to add "atom.io" domain to the list of exclusions in the Protection | Network settings. This prevents the Kaspersky man-in-the-middle scanner from disrupting the network traffic.
